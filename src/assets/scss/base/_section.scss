@@ -1,0 +1,10 @@
+.section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.section-title {
+  @include mq(desktop) {
+    width: 50%;
+  }
+}

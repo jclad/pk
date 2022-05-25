@@ -1,0 +1,22 @@
+.btn {
+  display: inline-block;
+  padding: 18px 28px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+  color: var(--white-txt-cl);
+  border: 1px solid transparent;
+  border-radius: 12px;
+  background-color: var(--accent-cl);
+  cursor: pointer;
+  transition: color var(--fast) linear, background-color var(--fast) linear,
+    border var(--fast) linear;
+
+  &:hover,
+  &:focus {
+    background-color: var(--secondary-accent-cl);
+  }
+}

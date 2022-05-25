@@ -1,0 +1,22 @@
+.icon-whatsapp, 
+.icon-telegram-app, 
+.icon-viber
+ {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    vertical-align: -0.1em;
+}
+
+.icon-whatsapp>svg, 
+.icon-telegram-app>svg, 
+.icon-viber>svg
+ {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    vertical-align: -0.1em;
+}
+
