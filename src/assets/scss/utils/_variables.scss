@@ -1,10 +1,11 @@
 :root {
-  --accent-cl: #eeac12;
-  --secondary-accent-cl: #e19f04;
-
+  --accent-cl: #fbbf24;
+  --secondary-accent-cl: #f59e0b;
+  --primary-alt-cl: rgb(30 58 138);
+  --secondary-alt-cl: #1e40af;
   /* TEXT COLORS */
-  --primary-txt-cl: #0b1d4f;
-  --secondary-txt-cl: #00336a;
+  --primary-txt-cl: rgb(30 41 59);
+  --secondary-txt-cl: rgb(30 41 59);
 
   /* BACKGROUND COLORS */
   --accent-bg: #fff;
@@ -12,7 +13,8 @@
   --secondary-bg: #fff;
 
   /* FONTS */
-  --main-font: 'Manrope', sans-serif;
+  --main-font: 'Jura', 'Raleway', sans-serif;
+  --title-font: 'Raleway', 'Source Sans Pro', serif;
 
   --card-set-item: 1;
   --gap-left: 30px;

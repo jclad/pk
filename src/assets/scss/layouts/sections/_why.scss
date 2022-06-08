@@ -1,0 +1,32 @@
+.why {
+  counter-reset: item;
+
+  .item {
+    @include mq(tablet) {
+      display: flex;
+      align-items: center;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+
+    &:before {
+      counter-increment: item;
+      content: counter(item) '.';
+      display: flex;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      width: 70px;
+      height: 70px;
+      margin-right: 30px;
+      font-size: 48px;
+      font-weight: 800;
+      background-image: url(../images/number.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+    }
+  }
+}

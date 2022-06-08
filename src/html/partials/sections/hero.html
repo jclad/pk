@@ -1,27 +1,56 @@
 <header class="hero">
   <div class="container">
-    <a href="/" class="logo">
-      <img src="./assets/images/logo.svg" alt="" class="logo-img" />
-    </a>
+    <div class="top-panel">
+      <img src="./assets/images/logo1.svg" alt="" class="logo-img" width="240" />
 
+      <ul class="list contacts">
+        <li class="item"><a href="tel:+380973861494" class="link">(097)386-14-94</a></li>
+        <li class="item"><a href="tel:+380933488899" class="link">(093)348-88-99</a></li>
+      </ul>
+    </div>
     <div class="hero-content">
       <h1 class="title page-title">
-        ІДЕАЛЬНИЙ ПАРКАН<br />
-        ДЛЯ ВАШОГО БУДИНКУ
+        Ідеальний паркан<br />
+        для вашого будинку
       </h1>
       <ul class="list hero-list">
-        <li class="item">Міцний</li>
-        <li class="item">надійний</li>
-        <li class="item">довговічний</li>
-        <li class="item">красивий</li>
+        <li class="item">
+          <svg class="icon" width="18" height="18">
+            <use href="./assets/images/sprite-icons.svg#icon-check"></use>
+          </svg>
+          міцний
+        </li>
+        <li class="item">
+          <svg class="icon" width="18" height="18">
+            <use href="./assets/images/sprite-icons.svg#icon-check"></use>
+          </svg>
+          надійний
+        </li>
+        <li class="item">
+          <svg class="icon" width="18" height="18">
+            <use href="./assets/images/sprite-icons.svg#icon-check"></use>
+          </svg>
+          довговічний
+        </li>
+        <li class="item">
+          <svg class="icon" width="18" height="18">
+            <use href="./assets/images/sprite-icons.svg#icon-check"></use>
+          </svg>
+          красивий
+        </li>
       </ul>
-      <button class="btn">Замовити консультацію</button>
-    </div>
-    <div class="hero-contact-us">
-      <p>Або зв’яжіться з нами прямо зараз зручним для вас способом</p>
-      <p>
-        І ми підберемо найкращий варіант саме для вас та прорахуємо необхідну кількість матеріалів.
-      </p>
+      <button class="btn btn-modal">Замовити консультацію</button>
     </div>
   </div>
 </header>
+<section class="section offer">
+  <div class="container">
+    <div class="hero-contact-us">
+      <p>
+        Або зв’яжіться з нами прямо зараз зручним для вас способом. І ми підберемо найкращий варіант
+        саме для вас та прорахуємо необхідну кількість матеріалів.
+      </p>
+      {% include '../components/contact-us.html' %}
+    </div>
+  </div>
+</section>

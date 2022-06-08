@@ -1,10 +1,23 @@
 .section {
   padding-top: 96px;
   padding-bottom: 96px;
+  width: 100vw;
+  overflow: hidden;
+
+  .list {
+    margin-bottom: 80px;
+  }
 }
 
 .section-title {
+  font-size: 28px;
+
+  @include mq(tablet) {
+    font-size: 32px;
+  }
+
   @include mq(desktop) {
-    width: 50%;
+    width: 80%;
+    margin-bottom: 64px;
   }
 }

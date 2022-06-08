@@ -1,5 +1,22 @@
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <button class="btn-close" type="button" data-modal-close aria-label=""></button>
+    <form class="form" id="contact-form" data-netlify="true">
+      <label class="form-label">
+        <input class="form-field" type="text" name="name" id="userName" placeholder="Ваше ім'я" />
+      </label>
+      <label class="form-label">
+        <input
+          class="form-field"
+          type="tel"
+          name="tel"
+          id="userTel"
+          placeholder="Телефон"
+          required
+        />
+      </label>
+      <input type="hidden" name="form-name" value="contact" />
+      <button class="btn btn-submit" type="submit">Відпривати заявку</button>
+    </form>
   </div>
 </div>
